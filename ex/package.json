@@ -5,17 +5,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node bin/www.js",
     "tsc": "tsc",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/express": "^4.17.17",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jest": "^29.5.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
     "@types/jest": "^29.5.2",
+    "supertest": "^6.3.3",
     "ts-jest": "^29.1.0",
     "typescript": "^5.1.3"
   }
